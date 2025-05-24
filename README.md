@@ -8,7 +8,7 @@ Este projeto é uma aplicação Web completa que implementa uma **API REST com S
 
 Acesse o vídeo abaixo para ver uma demonstração completa do sistema funcionando:
 
-[![Assista ao vídeo](video-thumbnail.jpg)](link-para-o-video.mp4)
+[![Assista ao vídeo](https://raw.githubusercontent.com/veroafr/api-pet-register/refs/heads/main/demo/preview.png)](https://github.com/veroafr/api-pet-register/blob/main/demo-video.mp4)
 
 ---
 
