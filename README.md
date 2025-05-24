@@ -144,4 +144,4 @@ petshop/
 
 ## 📋 Autor
 
-Este projeto foi desenvolvido por\*\* \*\*Veronica Ferreira como parte da disciplina de Sistemas Distribuidos, a cargo do professor Victor Alves, do curso de Analise e Desenvolvimento de Sistemas (IFSUL).
+Este projeto foi desenvolvido por **Veronica Ferreira** como parte da disciplina de Sistemas Distribuidos, a cargo do professor Victor Alves, do curso de Analise e Desenvolvimento de Sistemas (IFSUL).
