@@ -22,7 +22,8 @@ Acesse o vídeo abaixo para ver uma demonstração completa do sistema funcionan
     border-radius: 5px;
     font-weight: bold;
   ">
-    Aperte aqui para ver vídeo
+    <br>
+    <b>Aperte aqui para ver vídeo</b>
   </span>
 </a>
 
