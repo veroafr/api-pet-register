@@ -1,12 +1,17 @@
 # Etapa de construcción
-FROM maven:3.9.6-eclipse-temurin-17 AS build
-WORKDIR /app
-COPY pom.xml .
-COPY src ./src
-RUN mvn clean package -DskipTests
+FROM ubuntu:latest AS build 
 
-# Etapa de ejecución
-FROM eclipse-temurin:17
-WORKDIR /app
-COPY --from=build /app/target/*.jar app.jar
-ENTRYPOINT ["java", "-jar", "app.jar"]
+RUN apt-get update
+RUN apt-get install openjdk-17-jdk -y
+COPY . . 
+
+RUN apt-get install maven -y
+RUN nvn clean install 
+
+FROM openjdk:17-jdk-slin
+
+EXPOSE 8080 
+
+copy --from=build /target/deploy_render-1.0.0.jar app.jar
+
+ENTRYPOINT [ "java", "-jar", "app.jar"]
